@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MB Talebeye özel iftar - Dortmund Merkez Efendi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "festive-navy": "#1a365d" /* Tiefer Blauton */,
+              "festive-gold": "#d4af37" /* Klassisches Gold/Messing */,
+              "festive-cream": "#fffaf0" /* Warmes Creme */,
+            },
+            fontFamily: {
+              serif: ["Playfair Display", "serif"],
+              sans: ["Inter", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      .bg-fixed {
+        background-attachment: fixed;
+      }
+    </style>
+  </head>
+  <body class="bg-festive-cream font-sans text-festive-navy antialiased">
+    <header
+      id="welcome"
+      class="relative min-h-[90vh] flex flex-col justify-center items-center text-center px-6 py-20 bg-cover bg-center bg-no-repeat bg-fixed"
+      style="
+        background-image:
+          linear-gradient(rgba(26, 54, 93, 0.65), rgba(26, 54, 93, 0.7)),
+          url(./public/hero-banner.jpg);
+      "
+    >
+      <div class="relative z-10 max-w-lg">
+        <h1
+          class="font-serif text-5xl md:text-6xl font-bold text-white mb-6 leading-tight"
+        >
+          Özel iftar programı <br />
+        </h1>
+        <p class="text-xl text-white/90 mb-10 max-w-sm mx-auto font-light">
+          Dortmund Merkez Efendi'de gerçekleşecek olan bu özel iftar programına
+          hoş geldiniz. <br />
+        </p>
+        <p
+          class="text-sm text-white/80 mb-12 font-semibold tracking-wide uppercase"
+        >
+          12 Ramazan 1447 / 03.03.2026
+        </p>
+        <a
+          href="#quotes-start"
+          class="inline-block bg-festive-gold text-festive-navy font-semibold px-8 py-4 rounded-full text-lg shadow-lg transform transition hover:scale-105 active:scale-95"
+        >
+          Buyrun, başlayalım!
+        </a>
+      </div>
+    </header>
+
+    <section id="quotes-start" class="py-20 px-6 bg-festive-cream text-center">
+      <div class="max-w-md mx-auto space-y-16">
+        <div>
+          <span class="block text-4xl text-festive-gold mb-2 font-serif"
+            >"</span
+          >
+          <p
+            class="font-serif italic text-2xl md:text-3xl text-slate-700 leading-relaxed mb-4"
+          >
+            Die besten Feste sind die, bei denen man die Zeit vergisst.
+          </p>
+          <span
+            class="text-sm font-semibold tracking-widest uppercase text-festive-navy/60"
+            >— Autor Name</span
+          >
+        </div>
+
+        <div>
+          <span class="block text-4xl text-festive-gold mb-2 font-serif"
+            >"</span
+          >
+          <p
+            class="font-serif italic text-2xl md:text-3xl text-slate-700 leading-relaxed mb-4"
+          >
+            Zusammenkommen ist ein Beginn, zusammenbleiben ist ein Fortschritt,
+            zusammenarbeiten ist ein Erfolg.
+          </p>
+          <span
+            class="text-sm font-semibold tracking-widest uppercase text-festive-navy/60"
+            >— Henry Ford</span
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="program" class="py-24 px-6 bg-white">
+      <div class="max-w-xl mx-auto">
+        <h2 class="font-serif text-4xl md:text-5xl font-bold text-center mb-16">
+          Program
+        </h2>
+
+        <div class="space-y-12">
+          <div
+            class="flex items-start gap-6 border-l-4 border-festive-gold pl-6"
+          >
+            <span class="font-serif text-3xl font-bold text-festive-gold pt-1"
+              >18:11</span
+            >
+            <div>
+              <h3 class="text-xl font-semibold mb-1">Yasin-i Şerif ve Dua</h3>
+              <p class="text-slate-600 font-light">
+                Geçmişlerimiz için Yasin-i Şerif okunacak ve ardından dualar
+                edilecektir.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="flex items-start gap-6 border-l-4 border-festive-gold pl-6"
+          >
+            <span class="font-serif text-3xl font-bold text-festive-gold pt-1"
+              >18:21</span
+            >
+            <div>
+              <h3 class="text-xl font-semibold mb-1">Akşam Namazı</h3>
+              <p class="text-slate-600 font-light">
+                Hurma ikramından sonra hep birlikte akşam namazını kılacağız.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="flex items-start gap-6 border-l-4 border-festive-gold pl-6"
+          >
+            <span class="font-serif text-3xl font-bold text-festive-gold pt-1"
+              >18:35</span
+            >
+            <div class="w-full">
+              <h3 class="text-xl font-semibold mb-1">İftar</h3>
+              <p class="text-slate-600 font-light mb-6">
+                Afiyet olsun! İftar menümüz, özenle seçilmiş lezzetlerle doluç
+              </p>
+
+              <div
+                class="bg-festive-cream p-6 rounded-xl border border-festive-gold/30 shadow-sm w-full"
+              >
+                <h4
+                  class="font-serif text-2xl text-center text-festive-navy mb-6 border-b border-festive-gold/20 pb-4"
+                >
+                  Menü
+                </h4>
+
+                <div class="space-y-4 text-center">
+                  <div>
+                    <span
+                      class="block text-sm font-semibold uppercase tracking-wider text-festive-gold mb-1"
+                      >Başlangıç</span
+                    >
+                    <p class="text-slate-700 font-light">Tarhana Çorbası</p>
+                  </div>
+                  <div>
+                    <span
+                      class="block text-sm font-semibold uppercase tracking-wider text-festive-gold mb-2"
+                      >Soğuklar</span
+                    >
+                    <ul class="space-y-0 text-slate-700 font-light text-center">
+                      <li
+                        class="border-b border-festive-gold/10 last:border-0 last:pb-0"
+                      >
+                        Acılı Ezme
+                      </li>
+                      <li
+                        class="border-b border-festive-gold/10 last:border-0 last:pb-0"
+                      >
+                        Cacık
+                      </li>
+                      <li
+                        class="border-b border-festive-gold/10 last:border-0 last:pb-0"
+                      >
+                        Narlı Cevizli Salata
+                      </li>
+                      <li
+                        class="border-b border-festive-gold/10 pb-2 last:border-0 last:pb-0"
+                      >
+                        Sarma
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <span
+                      class="block text-sm font-semibold uppercase tracking-wider text-festive-gold mb-1"
+                      >Ana yemek</span
+                    >
+                    <ul class="space-y-0 text-slate-700 font-light text-center">
+                      <li
+                        class="border-b border-festive-gold/10 last:border-0 last:pb-0"
+                      >
+                        Etli Çökertme
+                      </li>
+                      <li
+                        class="border-b border-festive-gold/10 last:border-0 last:pb-0"
+                      >
+                        Bademli Üzümlü Pilav
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <span
+                      class="block text-sm font-semibold uppercase tracking-wider text-festive-gold mb-1"
+                      >Tatlı</span
+                    >
+                    <p class="text-slate-700 font-light">
+                      Tatlı çeşitleri ve Meyve
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="flex items-start gap-6 border-l-4 border-festive-gold pl-6"
+          >
+            <span class="font-serif text-3xl font-bold text-festive-gold pt-1"
+              >son</span
+            >
+            <div>
+              <h3 class="text-xl font-semibold mb-1">Teravih Namazı</h3>
+              <p class="text-slate-600 font-light">
+                Kendi aramızda teravih namazı ve isteyenler ile devam sohbet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 px-6 bg-festive-cream text-center">
+      <div class="max-w-md mx-auto">
+        <span class="block text-4xl text-festive-gold mb-2 font-serif">"</span>
+        <p
+          class="font-serif italic text-2xl text-slate-700 leading-relaxed mb-4"
+        >
+          Ein gutes Essen ist Balsam für die Seele.
+        </p>
+        <span
+          class="text-sm font-semibold tracking-widest uppercase text-festive-navy/60"
+          >— Ein Genießer</span
+        >
+      </div>
+    </section>
+
+    <section
+      id="farewell"
+      class="relative min-h-[60vh] flex justify-center items-center text-center px-6 py-20 bg-cover bg-center bg-no-repeat bg-festive-navy text-white bg-fixed"
+      style="
+        background-image:
+          linear-gradient(rgba(26, 54, 93, 0.8), rgba(26, 54, 93, 0.8)),
+          url(&quot;farewell-bg.jpg&quot;);
+      "
+    >
+      <div class="relative z-10 max-w-lg">
+        <h2 class="font-serif text-4xl md:text-5xl font-bold mb-8">
+          Hayırlı akşamlar ve teşekkürler!
+        </h2>
+        <p class="text-xl text-white/90 max-w-sm mx-auto font-light">
+          Katıldığınız için teşekkür ederiz. Cenab-ı Allah kabul etsin,
+          Ramazanınız mübarek olsun!
+        </p>
+      </div>
+    </section>
+
+    <footer
+      id="guestbook"
+      class="py-20 px-6 bg-white text-center border-t border-festive-gold/20"
+    >
+      <div class="max-w-md mx-auto">
+        <h3 class="font-serif text-3xl font-semibold mb-6">
+          Hatıra ve Öneri bırakmak ister misiniz?
+        </h3>
+        <p class="text-lg text-slate-600 font-light mb-10">
+          Bu günü hatırlatacak bir ve değerli önerileriniz varsa, lütfen
+          aşağıdaki linke tıklayarak bizimle paylaşın.
+        </p>
+
+        <a
+          href="https://DEIN-GASTBUCH-LINK.de"
+          class="inline-block bg-festive-navy text-white font-semibold px-10 py-5 rounded-full text-xl shadow-xl transform transition hover:bg-festive-gold hover:text-festive-navy active:scale-95"
+        >
+          Not bırakmak için tıklayın!
+        </a>
+      </div>
+      <div class="mt-24 flex justify-center">
+        <img src="./public/logo.png" alt="" class="w-60" />
+      </div>
+    </footer>
+  </body>
+</html>
